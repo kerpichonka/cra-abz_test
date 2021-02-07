@@ -1,2 +1,0 @@
-(this["webpackJsonpcra-abz_test"]=this["webpackJsonpcra-abz_test"]||[]).push([[0],{12:function(t,e,n){"use strict";n.r(e);var c=n(0),r=n.n(c),s=n(3),a=n.n(s),o=(n(8),n(9),n(1));var i=function(){return Object(o.jsx)("div",{className:"App",children:"Hello world!"})};n(11),a.a.render(Object(o.jsx)(r.a.StrictMode,{children:Object(o.jsx)(i,{})}),document.getElementById("root"))},8:function(t,e,n){},9:function(t,e,n){}},[[12,1,2]]]);
-//# sourceMappingURL=main.52abc746.chunk.js.map
