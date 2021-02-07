@@ -1,0 +1,46 @@
+.header {
+  padding: 0 calc(50% - #{1170px / 2});
+  font-size: 14px;
+  
+  &__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 30px;
+    height: 60px;
+  }
+
+  &__logo {
+    height: 20px;
+  }
+
+  &__nav {
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+
+  &__nav-list {
+    display: flex;
+    justify-content: space-between;
+    width: 446px;
+  }
+
+  &__menu-button {
+    padding: 0;
+    height: 15px;
+    border: none;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+    display: none;
+
+    @media (max-width: 768px) {
+      display: block;
+    }
+  }
+
+  &__menu-icon {
+    display: block;
+  }
+}
